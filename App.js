@@ -14,7 +14,6 @@ function App() {
     <Stack.Navigator>
     <Stack.Screen name="Login" options={{ headerShown: false }} component={LoginScreen} /> 
     <Stack.Screen name="Signup" options={{ headerShown: false }} component={SignUpScreen} />
-    
     </Stack.Navigator>
   </NavigationContainer>
   );
